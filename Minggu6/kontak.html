@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>Personal Website</title>
+</head>
+
+<body style="background-color: lightcyan;">
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="kontak.html">Contact</a> |
+            <a href="tentang.html">About Me</a> |
+        </nav>
+
+        <hr>
+
+        <div>
+            <h1>Kontak Saya</h1>
+            <table>
+                <form action="kontak.php" method="post" target="_blank">
+                    <tr>
+                        <label for="email">E-Mail:</label><br><br>
+                        <input type="email" name="email" placeholder="alamat email" style="width: 604px; height: 25px;">
+                    </tr>
+                    <br><br><br>
+                    <tr>
+                        <label for="message">Pesan:</label><br><br>
+                        <textarea name="message" id="message" cols="80" rows="5" placeholder="Tulis Pesan anda..."></textarea>
+                    </tr>
+                    <br>
+                    <br>
+                    <input type="submit" value="kirim" style="width: 50px; height: 25px;">
+                </form>
+            </table>
+        </div>
+
+        <hr>
+        <footer style="text-align: center;">
+            <p>Copyright &copy; 2021 Imanuel Dimas Cahyo Kumoro</p>
+        </footer>
+    </body>
+</html>
